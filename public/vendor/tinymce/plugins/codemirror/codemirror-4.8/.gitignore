@@ -1,0 +1,8 @@
+*.iml
+*.swp
+*~
+.idea
+.tern-*
+/node_modules
+/npm-debug.log
+/test*.html

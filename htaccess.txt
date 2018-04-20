@@ -1,0 +1,15 @@
+<IfModule mod_rewrite.c>
+   Options -Indexes
+   RewriteEngine On
+
+   # Force rewrite to www
+   #RewriteCond %{HTTP_HOST} !^www\. [NC]
+   #RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+
+   # Rewrite to www and SSL
+   RewriteCond %{HTTPS} off [OR]
+   RewriteCond %{HTTP_HOST} !^www\.bonusseeker\.com$ [NC]
+   RewriteRule ^(.*)$ https://www.bonusseeker.com/$1 [L,R=301]
+
+   RewriteRule ^(.*)$ public/$1 [L]
+</IfModule>

@@ -1,0 +1,94 @@
+.show-promo-details {
+  .promo-code-title {
+    font-size: 44px;
+    font-weight: 600;
+    font-family: helvetica,arial,sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .promo-details {
+    .max-promo-amount {
+      font-size: 32px;
+      font-weight: 600;
+      font-family: helvetica,arial,sans-serif;
+      color: limegreen;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+
+    h4 {
+      font-size: 24px;
+      font-weight: 600;
+      font-family: helvetica,arial,sans-serif;
+      margin-top: 0;
+    }
+
+    .promo-description {
+      padding: 0 15px;
+      border: 2px solid #d5d8dc;
+      border-radius: 3px;
+      margin-bottom: 20px;
+    }
+
+    .new-player-offer {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 2px solid #d5d8dc;
+    }
+
+    .terms-and-conditions {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 15px;
+      border: 2px solid #d5d8dc;
+
+      ul {
+        padding: 10px;
+      }
+    }
+  }
+
+  .btn-primary {
+    border-radius: 3px;
+    background-color: #ec028d;
+    border: 1px solid #ec028d;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      background-color: #fa25a4;
+      border: 1px solid #fa25a4;
+    }
+  }
+}
+
+.get-the-most-free-cash {
+  h1 {
+    color: $app-blue;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-radius: 2px;
+  }
+
+  .list-group {
+    .list-group-item {
+      font-weight: 600;
+
+      &:first-child {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+      }
+
+      &:last-child {
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+    }
+  }
+}

@@ -1,0 +1,948 @@
+@import "../snippets/mixins";
+
+.hot-news, .current-nj-online-casino-news {
+  h2 {
+    margin: 0 0 15px;
+    font-size: 36px;
+    font-family: helvetica,arial,sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+}
+
+.published-news {
+  margin-bottom: 20px;
+
+  .featured-news-article {
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 0;
+
+    h1 {
+      font-size: 22px;
+      line-height: 30px;
+      font-weight: 600;
+      padding: 10px;
+      margin-top: 0;
+      margin-bottom: 0;
+      border-radius: 2px;
+    }
+
+    .news-headline {
+      a {
+        color: rgba(46, 64, 83, .90);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+
+    .news-contents {
+      padding: 0 10px 0 10px;
+      font-size: 17px;
+      color: rgba(46, 64, 83, .75);
+    }
+
+    .publication-info {
+      padding: 0 10px 0 10px;
+      font-size: 13px;
+    }
+  }
+}
+
+.news-categories, .right-sidebar-col {
+  h2 {
+    color: $app-blue;
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-radius: 2px;
+  }
+
+  .list-group {
+    .list-group-item {
+      font-weight: 600;
+
+      &:first-child {
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+      }
+
+      &:last-child {
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+      }
+    }
+  }
+}
+
+// Show News
+.show-news-article {
+  .publication-info {
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .published-news-articles {
+    .featured-image {
+      margin: 0 auto;
+      text-align: center;
+      width: 100% !important;
+    }
+
+    .news-headline {
+      background-color: rgba(255, 255, 255, 1);
+      padding: 10px;
+      border-radius: 1px;
+      text-transform: uppercase;
+      margin: 0 0 15px;
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+
+  .news-contents {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: helvetica,arial,sans-serif !important;
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+  }
+}
+
+.right-sidebar-offered-casinos {
+  border: 1px solid #d5d8dc;
+  border-radius: 2px;
+  padding: 5px;
+  margin-top: 7px;
+
+  .media-body {
+    .media-heading {
+      a {
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.index-page-main-description {
+  background-color: #ffffff;
+  border-radius: 2px;
+  border: 2px solid #d0d3d4;
+  padding: 0 15px 10px 15px;
+}
+
+// Index Page News Section
+.index-page-news-section {
+  background-color: #f4f6f7;
+  border-radius: 2px;
+  border: 2px solid #d0d3d4;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+
+  .index-page-news-row-section {
+    -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, 0.3);
+    -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, 0.3);
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px rgba(46, 64, 83, 0.3);
+    margin-left: 0;
+    margin-right: 0;
+    padding: 15px;
+  }
+
+  .index-page-news-col-1 {
+    .index-page-news-col-1-heading-parent {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      -webkit-transform: skew(-10deg);
+      -moz-transform: skew(-10deg);
+      -o-transform: skew(-10deg);
+
+      .index-page-news-col-1-heading {
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+        margin: 0;
+        padding: 3px 15px;
+        color: #ffffff;
+        background-color: #f33471;
+        display: inline;
+      }
+    }
+
+    #index-page-news-col-1-card {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #index-page-news-col-1-card > li {
+      border-bottom: 1px solid #d5d8dc;
+
+      a {
+        color: rgba(46, 64, 83, .9);
+        font-weight: bold;
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+
+      .row {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+
+      .index-page-news-col-md-4 {
+      }
+
+      .index-page-news-col-md-8 {
+        padding-left: 0;
+      }
+
+      &:first-child {
+        .index-page-news-col-md-4 {
+          width: 100% !important;
+        }
+
+        .index-page-news-col-md-8 {
+          width: 100% !important;
+          padding-left: 15px;
+        }
+      }
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+
+  .index-page-news-col-2 {
+    .index-page-news-col-2-heading-parent {
+      margin-top: 10px;
+      margin-bottom: 20px;
+      -webkit-transform: skew(-10deg);
+      -moz-transform: skew(-10deg);
+      -o-transform: skew(-10deg);
+
+      .index-page-news-col-2-heading {
+        font-family: 'Oswald', sans-serif;
+        font-size: 23px;
+        margin: 0;
+        padding: 3px 15px;
+        color: #ffffff;
+        background-color: #f33471;
+        display: inline;
+      }
+    }
+
+    h3 {
+      font-family: 'Oswald', sans-serif;
+      font-size: 18px;
+      margin-top: 5px;
+    }
+  }
+}
+
+@media (min-width: 120px) and (max-width: 479px) {
+  // Index Page Published News
+  .published-news-articles {
+    overflow: visible;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 100%;
+
+    .news-featured-image {
+      overflow: visible;
+      padding-right: 0;
+      padding-left: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .news-descriptions {
+      padding: 10px 15px;
+
+      .news-contents {
+        margin-top: 10px;
+        font-size: 17px;
+        color: rgba(46, 64, 83, .75);
+
+        p, em, b, span {
+          font-family: helvetica,arial,sans-serif !important;
+          font-size: 14px;
+        }
+      }
+
+      .publication-info {
+        font-size: 13px;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+      font-weight: 600;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+  }
+
+  // Show Single News
+  .show-news-article {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .right-sidebar-col {
+      h2 {
+        color: $app-blue;
+        font-size: 22px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #d5d8dc;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        border-radius: 2px;
+      }
+
+      .list-group {
+        .list-group-item {
+          font-weight: 600;
+
+          &:first-child {
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+
+          &:last-child {
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+        }
+      }
+    }
+
+    .right-sidebar-offered-casinos {
+      border: 1px solid #d5d8dc;
+      border-radius: 2px;
+      padding: 5px;
+      margin-top: 7px;
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
+
+      .media-body {
+        .media-heading {
+          a {
+            font-size: 13px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  // Index Page News Section
+  .index-page-news-section {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+
+    .index-page-news-row-section {
+      -webkit-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      -moz-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      padding: 0 0 15px 0;
+    }
+
+    .index-page-news-col-1 {
+      .index-page-news-col-1-heading-parent {
+        margin-top: 25px;
+
+        .index-page-news-col-1-heading {
+          font-size: 20px !important;
+          line-height: normal;
+        }
+      }
+
+      #index-page-news-col-1-card > li {
+        .index-page-news-col-md-8 {
+          padding-left: 15px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .index-page-news-col-2 {
+      .index-page-news-col-2-heading-parent {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  // Index Page Published News
+  .published-news-articles {
+    overflow: visible;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 100%;
+
+    .news-featured-image {
+      overflow: visible;
+      padding-right: 0;
+      padding-left: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .news-descriptions {
+      padding: 10px 15px;
+
+      .news-contents {
+        margin-top: 10px;
+        font-size: 17px;
+        color: rgba(46, 64, 83, .75);
+
+        p, em, b, span {
+          font-family: helvetica,arial,sans-serif !important;
+          font-size: 14px;
+        }
+      }
+
+      .publication-info {
+        font-size: 13px;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+      font-weight: 600;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+  }
+
+  // Show Single News
+  .show-news-article {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .right-sidebar-col {
+      h2 {
+        color: $app-blue;
+        font-size: 22px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #d5d8dc;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        border-radius: 2px;
+      }
+
+      .list-group {
+        .list-group-item {
+          font-weight: 600;
+
+          &:first-child {
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+
+          &:last-child {
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+        }
+      }
+    }
+
+    .right-sidebar-offered-casinos {
+      border: 1px solid #d5d8dc;
+      border-radius: 2px;
+      padding: 5px;
+      margin-top: 7px;
+
+      &:last-child {
+        margin-bottom: 20px;
+      }
+
+      .media-body {
+        .media-heading {
+          a {
+            font-size: 13px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+
+  // Index Page News Section
+  .index-page-news-section {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+
+    .index-page-news-row-section {
+      -webkit-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      -moz-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      padding: 0 0 15px 0;
+    }
+
+    .index-page-news-col-1 {
+      .index-page-news-col-1-heading-parent {
+        margin-top: 25px;
+      }
+
+      #index-page-news-col-1-card > li {
+        .index-page-news-col-md-8 {
+          padding-left: 15px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .index-page-news-col-2 {
+      .index-page-news-col-2-heading-parent {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  // Index Page Published News
+  .published-news-articles {
+    overflow: visible;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 100%;
+
+    .news-featured-image {
+      overflow: visible;
+      padding-right: 0;
+      padding-left: 0;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .news-descriptions {
+      padding: 10px 15px;
+
+      .news-contents {
+        margin-top: 10px;
+        font-size: 17px;
+        color: rgba(46, 64, 83, .75);
+
+        p, em, b, span {
+          font-family: helvetica,arial,sans-serif !important;
+          font-size: 14px;
+        }
+      }
+
+      .publication-info {
+        font-size: 13px;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+      font-weight: 600;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+  }
+
+  // Show Single News
+  .show-news-article {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        width: 100%;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .right-sidebar-col {
+      h2 {
+        color: $app-blue;
+        font-size: 22px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #d5d8dc;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        border-radius: 2px;
+      }
+
+      .list-group {
+        .list-group-item {
+          font-weight: 600;
+
+          &:first-child {
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+
+          &:last-child {
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+        }
+      }
+    }
+
+    .right-sidebar-offered-casinos {
+      border: 1px solid #d5d8dc;
+      border-radius: 2px;
+      padding: 5px;
+      margin-top: 7px;
+
+      .media-body {
+        .media-heading {
+          a {
+            font-size: 13px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  // Index Page Published News
+  .published-news-articles {
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #d5d8dc;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 160px;
+
+    .news-featured-image {
+      overflow: hidden;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .news-descriptions {
+      padding: 10px 15px;
+
+      .news-contents {
+        margin-top: 10px;
+        font-size: 17px;
+        color: rgba(46, 64, 83, .75);
+
+        p, em, b, span {
+          font-family: helvetica,arial,sans-serif !important;
+          font-size: 14px;
+        }
+      }
+
+      .publication-info {
+        font-size: 13px;
+      }
+    }
+
+    h2 {
+      margin: 0;
+      padding: 0;
+      font-size: 22px;
+      font-weight: 600;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+  }
+
+  // Show Single News
+  .show-news-article {
+    margin-bottom: 20px;
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .right-sidebar-col {
+      h2 {
+        color: $app-blue;
+        font-size: 22px;
+        font-weight: 600;
+        background-color: #ffffff;
+        border: 1px solid #d5d8dc;
+        padding: 10px;
+        margin-top: 0;
+        margin-bottom: 15px;
+        border-radius: 2px;
+      }
+
+      .list-group {
+        .list-group-item {
+          font-weight: 600;
+
+          &:first-child {
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+          }
+
+          &:last-child {
+            border-bottom-right-radius: 2px;
+            border-bottom-left-radius: 2px;
+          }
+        }
+      }
+    }
+
+    .right-sidebar-offered-casinos {
+      border: 1px solid #d5d8dc;
+      border-radius: 2px;
+      padding: 5px;
+      margin-top: 7px;
+
+      .media-body {
+        .media-heading {
+          a {
+            font-size: 13px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
+}
+
+// iPhone 6
+@media (width: 667px) {
+  .news-tips-facts-section {
+    .col-md-4 {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  .index-page-news-section {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+
+    .index-page-news-row-section {
+      -webkit-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      -moz-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      padding: 0 0 15px 0;
+    }
+
+    .index-page-news-col-1 {
+      .index-page-news-col-1-heading-parent {
+        margin-top: 25px;
+
+        .index-page-news-col-1-heading {
+          font-size: 20px !important;
+          line-height: normal;
+        }
+      }
+
+      #index-page-news-col-1-card > li {
+        .index-page-news-col-md-8 {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .index-page-news-col-2 {
+      .index-page-news-col-2-heading-parent {
+        margin-top: 25px;
+      }
+    }
+  }
+}
+
+// iPhone 7
+@media (width: 750px) {
+  .news-tips-facts-section {
+    .col-md-4 {
+      width: 50%;
+      float: left;
+    }
+  }
+
+  .index-page-news-section {
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+    padding: 0;
+
+    .index-page-news-row-section {
+      -webkit-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      -moz-box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      box-shadow: 0 0 4px 1px rgba(46, 64, 83, 0.3);
+      padding: 0 0 15px 0;
+    }
+
+    .index-page-news-col-1 {
+      .index-page-news-col-1-heading-parent {
+        margin-top: 25px;
+
+        .index-page-news-col-1-heading {
+          font-size: 20px !important;
+          line-height: normal;
+        }
+      }
+
+      #index-page-news-col-1-card > li {
+        .index-page-news-col-md-8 {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .index-page-news-col-2 {
+      .index-page-news-col-2-heading-parent {
+        margin-top: 25px;
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "snippets/colors";
+@import "snippets/spacing";
+@import "snippets/typography";
+@import "snippets/mixins";
+
+.navbar-default {
+  background-color: rgba(46, 64, 83, 0.1);
+  border-color: #d5d8dc;
+  border-radius: 0;
+  .navbar-brand {
+    color: #2e4053;
+    font-weight: 600;
+  }
+  .navbar-nav {
+    .dropdown {
+      a {
+        color: #2e4053;
+        font-weight: 600;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: rgba(46, 64, 83, .5);
+        }
+      }
+    }
+  }
+}
+
+.panel {
+  border-color: #d5d8dc;
+  .panel-heading {
+    color: #2e4053;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(46, 64, 83, 0.1);
+    border-color: #d5d8dc;
+  }
+}
+
+.account-authentication-section {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 310px;
+  border-radius: 0;
+  -webkit-box-shadow: 1.4px 1.4px 6px 0 rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 1.4px 1.4px 6px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 1.4px 1.4px 6px 0 rgba(0, 0, 0, 0.3);
+}
+
+.left-sidebar {
+  .menu-title {
+    font-size: 18px;
+    color: rgba(46, 64, 83, 1);
+    background: rgba(46, 64, 83, .1);
+    border-bottom: 2px double rgba(213, 216, 220, 1);
+    padding: 7.5px 15px;
+  }
+  .list-group {
+    .list-group-item {
+      font-weight: 600;
+      border-radius: 1px;
+      border: 1px solid rgba(213, 216, 220, 1);
+      &:hover,
+      &:focus {
+        background-color: rgba(213, 216, 220, .5);
+      }
+      [class^="ti-"],
+      [class*=" ti-"] {
+        font-size: 17px;
+        color: rgba(46, 64, 83, 1); // #2e4053
+        padding-right: 7px;
+      }
+    }
+  }
+}
+
+.char-max-alert {
+  color: rgba(46, 64, 83, .75);
+  font-size: 13px;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-weight: 600;
+}
+
+.rating-xs {
+  font-size: 1.4em !important;
+}

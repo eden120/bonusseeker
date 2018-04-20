@@ -1,0 +1,471 @@
+.online-casino-promo-codes-index-page {
+  background-color: #ffffff;
+  border: 1px solid #d5d8dc;
+  margin-bottom: 10px;
+  min-height: 100%;
+  padding: 15px;
+  width: 48.5%;
+  margin-right: .75%;
+  margin-left: .75%;
+
+  .promo-code-thumbnail {
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .promo-code-img-thumb {
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .promo-code-type {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #10b48a;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .promo-code-description {
+    width: 71%;
+  }
+
+  .promo-prize {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(46, 64, 83, .95);
+
+    a {
+      color: rgba(46, 64, 83, .95);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+  }
+
+  .promo-name {
+    overflow: hidden;
+    h2 {
+      margin: 10px 0;
+      padding: 0;
+      font-size: 18px;
+      font-weight: 600;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+  }
+
+  .promo-code-duration {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .btn-primary {
+    border-radius: 3px;
+    background-color: #ec028d;
+    border: 1px solid #ec028d;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      background-color: #fa25a4;
+      border: 1px solid #fa25a4;
+    }
+  }
+}
+
+.online-casino-promo-codes-col-1 {
+  background-color: #ffffff;
+  border: 1px solid #d5d8dc;
+  margin-bottom: 12px;
+  min-height: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+  -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+  box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+
+  .promo-code-thumbnail {
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 22%;
+  }
+
+  .promo-code-img-thumb {
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .promo-code-type {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #10b48a;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .promo-code-description {
+    width: 76%;
+  }
+
+  .promo-code-duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: #808b96;
+
+    a {
+      color: rgba(46, 64, 83, .85);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+
+    .promo-name {
+      overflow: hidden;
+      h2 {
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 22px;
+        font-weight: 600;
+
+        a {
+          color: rgba(46, 64, 83, .95);
+
+          &:hover, &:focus {
+            color: rgba(46, 64, 83, 1);
+          }
+        }
+      }
+    }
+
+    .promo-prize-amount {
+      font-size: 24px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: limegreen;
+
+      span {
+        font-size: 18px;
+        font-weight: 600;
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+  }
+
+  .btn-primary {
+    border-radius: 3px;
+    background-color: #ec028d;
+    border: 1px solid #ec028d;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      background-color: #fa25a4;
+      border: 1px solid #fa25a4;
+    }
+  }
+}
+
+.online-casino-promo-codes-col-2 {
+  background-color: #ffffff;
+  border: 1px solid #d5d8dc;
+  margin-bottom: 12px;
+  min-height: 100%;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+  -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+  box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+
+  .promo-code-thumbnail {
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    -moz-box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    box-shadow: 1px 1px 4px rgba(46, 64, 83, .3);
+    text-align: center;
+    border-radius: 3px;
+    margin: 0 10px 0 10px;
+    padding-right: 0;
+    padding-left: 0;
+    width: 21%;
+  }
+
+  .promo-code-img-thumb {
+    a {
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .promo-code-type {
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #10b48a;
+    color: #ffffff;
+    padding: 10px;
+  }
+
+  .promo-code-description {
+    width: 73%;
+  }
+
+  .promo-code-duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: #808b96;
+
+    a {
+      color: rgba(46, 64, 83, .85);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+
+    .promo-name {
+      overflow: hidden;
+      h2 {
+        margin: 0 0 10px 0;
+        padding: 0;
+        font-size: 21px;
+        font-weight: 600;
+
+        a {
+          color: rgba(46, 64, 83, .95);
+
+          &:hover, &:focus {
+            color: rgba(46, 64, 83, 1);
+          }
+        }
+      }
+    }
+
+    .promo-prize-amount {
+      font-size: 23px;
+      font-weight: 600;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: limegreen;
+
+      span {
+        font-size: 17px;
+        font-weight: 600;
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+  }
+
+  .promo-code-name-and-expiry {
+    p {
+      margin: 0 0 5px;
+    }
+  }
+
+  .btn-primary {
+    border-radius: 3px;
+    background-color: #ec028d;
+    border: 1px solid #ec028d;
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      background-color: #fa25a4;
+      border: 1px solid #fa25a4;
+    }
+  }
+
+  .btn-ended {
+    border-radius: 3px;
+    color: #ffffff !important;
+    background-color: rgba(46, 64, 83, .75);
+    border: 1px solid rgba(46, 64, 83, .75);
+    font-size: 14px;
+    font-weight: 600;
+
+    &:hover, &:focus {
+      background-color: rgba(46, 64, 83, 1);
+      border: 1px solid rgba(46, 64, 83, 1);
+    }
+  }
+}
+
+// Responsiveness
+@media (min-width: 120px) and (max-width: 479px) {
+  .online-casino-promo-codes-col-1 {
+    .promo-code-thumbnail {
+      width: 92%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .promo-code-description {
+      width: 100%;
+    }
+
+    .promo-code-duration {
+
+    }
+
+    .promo-code-name-and-expiry {
+      margin-bottom: 10px;
+
+      .col-md-4 {
+        margin-top: 10px;
+        text-align: center !important;
+
+        h3 {
+          background-color: #ecf0f1;
+          padding: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .online-casino-promo-codes-col-2 {
+    .promo-code-thumbnail {
+      width: 92%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .promo-code-description {
+      width: 100%;
+    }
+
+    .promo-code-duration {
+
+    }
+
+    .promo-code-name-and-expiry {
+      margin-bottom: 10px;
+
+      .col-md-4 {
+        margin-top: 10px;
+        text-align: center !important;
+
+        h3 {
+          background-color: #ecf0f1;
+          padding: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 800px) {
+  .online-casino-promo-codes-col-1 {
+    .promo-code-thumbnail {
+      width: 40%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .promo-code-description {
+      width: 54%;
+    }
+
+    .promo-code-duration {
+
+    }
+
+    .promo-code-name-and-expiry {
+      margin-bottom: 10px;
+
+      .col-md-4 {
+        margin-top: 10px;
+        text-align: center !important;
+
+        h3 {
+          background-color: #ecf0f1;
+          padding: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+
+  .online-casino-promo-codes-col-2 {
+    .promo-code-thumbnail {
+      width: 40%;
+      margin-top: 10px;
+      margin-bottom: 15px;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .promo-code-description {
+      width: 55%;
+    }
+
+    .promo-code-duration {
+
+    }
+
+    .promo-code-name-and-expiry {
+      margin-bottom: 10px;
+
+      .col-md-4 {
+        margin-top: 10px;
+        text-align: center !important;
+
+        h3 {
+          background-color: #ecf0f1;
+          padding: 10px;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+// Larger Than 1024px
+@media (min-width: 1024px) {
+  .online-casino-promo-codes-col-1 {
+    .promo-code-name-and-expiry {
+      .col-md-4 {
+        margin-top: 35px;
+      }
+    }
+  }
+}

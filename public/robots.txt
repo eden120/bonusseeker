@@ -1,0 +1,13 @@
+User-agent: *
+Disallow: vendor/*
+Disallow: app/*
+
+User-agent: SemrushBot
+Allow: /
+
+User-agent: AhrefsBot
+User-agent: MJ12bot
+User-agent: Rogerbot
+Disallow: /
+
+Sitemap: https://www.bonusseeker.com/sitemap.xml

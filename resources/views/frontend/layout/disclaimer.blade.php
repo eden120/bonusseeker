@@ -1,0 +1,6 @@
+<div class="disclaimer text-justify">This web page is purely for entertainment purposes only, and may contain paid advertisements for an online casino. When you play online or in person at casinos, you are always at risk to lose the money that you are wagering, and Bonus Seeker makes no claim or guarantee that you will win money. When gambling at a casino, only risk what you can comfortably afford to lose. You must be 21 years or older, and a US citizen to register at online casinos in New Jersey. Whilst we try to ensure that this information is correct, we do not warrant its accuracy or completeness. The information provided does not constitute advice and is intended only to provide general information. Bonus Seeker and its partners will not be responsible for any errors or omissions and we will not have any liability or responsibility for any loss that arises from any reliance placed on information obtained from this article including, but not limited to, the comments submitted by third parties. If you should require any advice for gambling-related problems, please CALL 1-800-GAMBLER.
+</div>
+
+<p class="text-center m-t-10">
+    <strong>&copy; Copyright {{ \Carbon\Carbon::now()->format('Y') }} - All Rights Reserved.</strong>
+    <a href="{{ url('privacy-policy') }}" rel="nofollow">Privacy Policy</a></p>

@@ -1,0 +1,1769 @@
+@import "snippets/mixins";
+
+@media (min-width: 120px) and (max-width: 479px) {
+  .table-bordered {
+    border: none;
+  }
+
+  .navbar-header {
+    height: 100% !important;
+  }
+
+  .navbar-toggle {
+    margin-top: 14px;
+  }
+
+  .navbar-brand {
+    width: 75% !important;
+    margin-left: 10px;
+    height: 75px !important;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .main-page-slider {
+    height: 100%;
+
+    .slider-text {
+      .slider-text-title {
+        font-size: 30px;
+        text-align: center !important;
+        text-transform: capitalize !important;
+      }
+    }
+
+    .slider-player {
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .intro-section {
+    font-size: 12px;
+  }
+
+  .how-to-use-this-site {
+    .intro-text-and-description {
+      .intro-text {
+        font-size: 36px;
+      }
+    }
+
+    .video-description {
+      margin-top: 15px;
+      font-size: 14px;
+      border-left: none;
+    }
+  }
+
+  .how-to-use-this-site .intro-text, .featured-casino-promo-codes .intro-text {
+    font-family: helvetica,arial,sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .featured-casino-promo-codes {
+    .how-to-use-this-site-video-section {
+      .video-description {
+        margin-top: 15px;
+        font-size: 14px;
+        border-left: none;
+
+        ol {
+          margin-top: 20px;
+          padding: 0 15px;
+        }
+      }
+    }
+
+    .promo-cards {
+      margin-top: 15px;
+      padding: 10px 0 15px 0;
+    }
+  }
+
+  .online-casino-promo-codes {
+    height: 100% !important;
+
+    .promo-code-thumbnail {
+      width: 33%;
+    }
+
+    .promo-code-description {
+      width: 59%;
+    }
+
+    .promo-code-get {
+      margin-top: 10px;
+      text-align: center !important;
+
+      .btn-primary {
+        position: relative;
+        top: 0;
+      }
+
+      .btn-ended {
+        position: relative;
+        top: 0;
+      }
+    }
+  }
+
+  // Show Casino
+  .show-casino-detail {
+    .video-description {
+      margin-top: 10px;
+    }
+
+    .casino-name {
+      font-size: 36px;
+    }
+
+    .claim-bonuses {
+      text-align: center !important;
+    }
+
+    .editors-review {
+      display: none;
+    }
+
+    .promo-codes {
+      h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .more-info-about-casino {
+      h2 {
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      img {
+        max-width: 100% !important;
+      }
+    }
+  }
+  // Ends of Show Casino
+
+  // Show Promo Code
+  .show-promo-details {
+    .promo-details {
+      .promo-description {
+        .promo-code-title {
+          font-size: 26px;
+          margin-top: 10px;
+        }
+
+        .max-promo-amount {
+          font-size: 22px;
+        }
+
+        ul {
+          margin: 0;
+          padding: 10px 15px;
+        }
+
+        .single-page-promo-code-description {
+          td {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // All Games
+  .all-games-section {
+    .index-heading-message {
+      margin-bottom: 20px;
+      text-align: center !important;
+
+      img {
+        text-align: center !important;
+        margin: 0 auto;
+        width: 80%;
+      }
+    }
+  }
+
+  // Site Footer
+  .site-footer {
+    height: auto;
+
+    .footer-col-1 {
+      position: static;
+    }
+
+    .footer-col-2 {
+      position: static;
+      left: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .footer-col-3 {
+      position: static;
+      left: 0;
+    }
+  }
+
+  .disclaimer {
+    margin-bottom: 15px;
+  }
+
+  // Old Page
+  .show-page-article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  // Show Single Region
+  .show-region {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .region-h1 {
+      font-size: 36px;
+      font-weight: bold;
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  // Index Page Top Arrow Section
+  #index-page-top-arrow-section-row {
+    display: none;
+    height: 240px;
+
+    #index-page-top-arrow-section {
+      height: 30px;
+    }
+
+    .index-page-top-arrow-section li {
+      position: relative;
+      background-color: #ffdb58;
+      display: inline-block;
+      zoom: 1;
+      margin-left: 10px;
+      padding: 10px 10px 10px 37px;
+      font-size: 14px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 30px;
+      margin-bottom: 15px;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+
+    ul.index-page-top-arrow-section {
+      list-style: none;
+      padding-left: 15px;
+      margin: 0;
+    }
+
+    li {
+      &.index-page-top-arrow-section:after, &.index-page-top-arrow-section:first-child:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-left: 20px solid #ffdb58;
+        border-bottom: 25px solid transparent;
+        margin: -10px 90px 0 10px;
+      }
+      &.index-page-top-arrow-section:before, &.index-page-top-arrow-section:last-child:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        border-top: 25px solid transparent;
+        border-left: 20px solid #ffffff;
+        border-bottom: 25px solid transparent;
+        margin: -10px 0 0;
+      }
+      &.index-page-top-arrow-section {
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  //
+
+  // Index page features stack (Very Top Section)
+  .index-page-features-stack {
+    display: none;
+  }
+
+  /*
+  Mega Dropdown
+   */
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    //width: 200px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.2em;
+  }
+
+  .mega-dropdown {
+    position: static !important;
+    //width: 100%;
+  }
+
+  .mega-dropdown-menu {
+    padding: 5px 0;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mega-dropdown-menu > li > ul > li {
+    list-style: none;
+    border-right: none !important;
+    font-weight: 400 !important;
+  }
+
+  .mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    clear: both;
+    font-weight: 400 !important;
+    line-height: 1em;
+    color: #2e4053;
+    white-space: normal;
+    border-radius: 2px;
+    padding: 7px 5px;
+    text-transform: inherit !important;
+  }
+
+  .mega-dropdown-menu .dropdown-header {
+    color: #2e4053;
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold !important;
+    padding: 0 0 5px 0 !important;
+    border-bottom: 2px solid rgba(46, 64, 83, .25);
+    margin-bottom: 5px;
+
+    &:hover, &:focus {
+      background-color: transparent !important;
+      color: rgba(46, 64, 83, .8) !important;
+    }
+  }
+
+  .mega-dropdown-menu form {
+    margin: 3px 20px;
+  }
+
+  .mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+  }
+
+  #myCarousel {
+    margin-bottom: 5px;
+  }
+  /*
+  Ends of Mega Dropdown
+   */
+}
+
+// End of 120px to 479px
+
+@media (min-width: 480px) and (max-width: 800px) {
+  .table-bordered {
+    border: none;
+  }
+
+  .navbar-header {
+    height: 100% !important;
+  }
+
+  .navbar-toggle {
+    margin-top: 14px;
+  }
+
+  .navbar-brand {
+    margin-left: 10px;
+    height: 75px !important;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .main-page-slider {
+    height: 100%;
+
+    .slider-text {
+      .slider-text-title {
+        font-size: 30px;
+        text-align: center !important;
+        text-transform: capitalize !important;
+      }
+    }
+
+    .slider-player {
+      margin-top: 20px;
+      margin-bottom: 15px;
+    }
+  }
+
+  .intro-section {
+    font-size: 12px;
+  }
+
+  .how-to-use-this-site {
+    .intro-text-and-description {
+      .intro-text {
+        font-size: 36px;
+      }
+    }
+
+    .video-description {
+      margin-top: 15px;
+      font-size: 16px;
+      border-left: none;
+    }
+  }
+
+  .how-to-use-this-site .intro-text, .featured-casino-promo-codes .intro-text {
+    font-family: helvetica,arial,sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+  }
+
+  .featured-casino-promo-codes {
+    .how-to-use-this-site-video-section {
+      .video-description {
+        margin-top: 15px;
+        font-size: 14px;
+        border-left: none;
+
+        ol {
+          margin-top: 20px;
+          padding: 0 15px;
+        }
+      }
+    }
+
+    .promo-cards {
+      margin-top: 15px;
+      padding: 10px 0 15px 0;
+    }
+  }
+
+  .online-casino-promo-codes {
+    height: 100% !important;
+
+    .promo-code-thumbnail {
+      width: 33%;
+    }
+
+    .promo-code-description {
+      width: 59%;
+    }
+
+    .promo-code-get {
+      margin-top: 10px;
+      text-align: center !important;
+
+      .btn-primary {
+        position: relative;
+        top: 0;
+      }
+
+      .btn-ended {
+        position: relative;
+        top: 0;
+      }
+    }
+  }
+
+  // Show Casino
+  .show-casino-detail {
+    .video-description {
+      margin-top: 10px;
+    }
+
+    .casino-name {
+      font-size: 44px;
+    }
+
+    .claim-bonuses {
+      text-align: center !important;
+    }
+
+    .editors-review {
+      display: none;
+    }
+
+    .promo-codes {
+      h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+
+    .more-info-about-casino {
+      h2 {
+        margin-top: 0;
+        margin-bottom: 15px;
+      }
+
+      img {
+        max-width: 100% !important;
+      }
+    }
+  }
+  // Ends of Show Casino
+
+  // Show Promo Code
+  .show-promo-details {
+    .promo-details {
+      .promo-description {
+        .promo-code-title {
+          font-size: 26px;
+          margin-top: 10px;
+        }
+
+        .max-promo-amount {
+          font-size: 22px;
+        }
+
+        ul {
+          margin: 0;
+          padding: 10px 15px;
+        }
+
+        .single-page-promo-code-description {
+          td {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // All Games
+  .all-games-section {
+    .index-heading-message {
+      margin-bottom: 20px;
+      text-align: center !important;
+
+      img {
+        text-align: center !important;
+        margin: 0 auto;
+        width: 50%;
+      }
+    }
+  }
+
+  // Site Footer
+  .site-footer {
+    height: auto;
+
+    .footer-col-1 {
+      position: static;
+      width: 50%;
+
+      img {
+        height: 55px !important;
+      }
+    }
+
+    .footer-col-2 {
+      position: static;
+      left: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      width: 50%;
+    }
+
+    .footer-col-3 {
+      position: static;
+      left: 0;
+      width: 50%;
+    }
+  }
+
+  // Old Page
+  .show-page-article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 24px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  // Show Single Region
+  .show-region {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .region-h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  // Index Page Top Arrow Section
+  #index-page-top-arrow-section-row {
+    height: 240px;
+    display: none;
+
+    #index-page-top-arrow-section {
+      height: 30px;
+      text-align: center !important;
+    }
+
+    .index-page-top-arrow-section li {
+      position: relative;
+      background-color: #ffdb58;
+      display: inline-block;
+      zoom: 1;
+      margin-left: 10px;
+      padding: 10px 10px 10px 37px;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 30px;
+      margin-bottom: 15px;
+
+      a {
+        color: rgba(46, 64, 83, .95);
+
+        &:hover, &:focus {
+          color: rgba(46, 64, 83, 1);
+        }
+      }
+    }
+
+    ul.index-page-top-arrow-section {
+      list-style: none;
+      padding-left: 15px;
+      margin: 0;
+    }
+
+    li {
+      &.index-page-top-arrow-section:after, &.index-page-top-arrow-section:first-child:after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 25px solid transparent;
+        border-left: 20px solid #ffdb58;
+        border-bottom: 25px solid transparent;
+        margin: -10px 90px 0 10px;
+      }
+      &.index-page-top-arrow-section:before, &.index-page-top-arrow-section:last-child:before {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        left: 0;
+        border-top: 25px solid transparent;
+        border-left: 20px solid #ffffff;
+        border-bottom: 25px solid transparent;
+        margin: -10px 0 0;
+      }
+      &.index-page-top-arrow-section {
+        &:first-child {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  //
+
+  // Index page features stack (Very Top Section)
+  .index-page-features-stack {
+    background-color: #f4f6f7;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: rgba(46, 64, 83, .95);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+
+    .features-stack-parent-column {
+      background: url("../img/features-stack-thin-border.png") no-repeat right;
+      padding-right: 0;
+      padding-left: 30px;
+
+      &:last-child {
+        background: none;
+      }
+
+      .features-stack-col-01 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .features-stack-col-02 {
+        .feature-stack-headline {
+          color: #00aeef;
+          font-size: 20px;
+          font-weight: 700;
+
+          a {
+            color: #00aeef;
+
+            &:hover, &:focus {
+              color: rgba(46, 64, 83, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+  Mega Dropdown
+   */
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    //width: 200px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.2em;
+  }
+
+  .mega-dropdown {
+    position: static !important;
+    //width: 100%;
+  }
+
+  .mega-dropdown-menu {
+    padding: 5px 0;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mega-dropdown-menu > li > ul > li {
+    list-style: none;
+    border-right: none !important;
+    font-weight: 400 !important;
+  }
+
+  .mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    clear: both;
+    font-weight: 400 !important;
+    line-height: 1em;
+    color: #2e4053;
+    white-space: normal;
+    border-radius: 2px;
+    padding: 7px 5px;
+  }
+
+  .mega-dropdown-menu .dropdown-header {
+    color: #2e4053;
+    font-size: 18px !important;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 0 0 5px 0 !important;
+    border-bottom: 2px solid rgba(46, 64, 83, .25);
+    margin-bottom: 5px;
+
+    &:hover, &:focus {
+      background-color: transparent !important;
+      color: rgba(46, 64, 83, .8) !important;
+    }
+  }
+
+  .mega-dropdown-menu form {
+    margin: 3px 20px;
+  }
+
+  .mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+  }
+
+  #myCarousel {
+    margin-bottom: 5px;
+  }
+  /*
+  Ends of Mega Dropdown
+   */
+}
+
+// End of 480px to 800px
+
+@media (min-width: 120px) and (max-width: 800px) {
+  table td[class*="col-"], table th[class*="col-"] {
+    display: block;
+  }
+
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  tr {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ecf0f1;
+  }
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    white-space: normal;
+    text-align: center !important;
+    &:before {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      width: 45%;
+      padding-right: 15px;
+      white-space: nowrap;
+      text-align: center !important;
+      content: attr(data-title);
+    }
+  }
+
+  .slider-text-description {
+    display: none;
+  }
+
+  .slider-player {
+    margin-top: 10px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  // Old Page
+  .show-page-article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .featured-image {
+      img {
+        max-width: 100% !important;
+        height: auto !important;
+      }
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  // Show Single Region
+  .show-region {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .region-h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+
+    iframe {
+      width: 100% !important;
+    }
+  }
+
+  .index-page-features-stack {
+    background-color: #f4f6f7;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: rgba(46, 64, 83, .95);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+
+    .features-stack-parent-column {
+      background: url("../img/features-stack-thin-border.png") no-repeat right;
+      padding-right: 0;
+      padding-left: 30px;
+
+      &:last-child {
+        background: none;
+      }
+
+      .features-stack-col-01 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .features-stack-col-02 {
+        .feature-stack-headline {
+          color: #00aeef;
+          font-size: 20px;
+          font-weight: 700;
+
+          a {
+            color: #00aeef;
+
+            &:hover, &:focus {
+              color: rgba(46, 64, 83, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+  Mega Dropdown
+   */
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    //width: 200px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 1.2em;
+  }
+
+  .mega-dropdown {
+    position: static !important;
+    //width: 100%;
+  }
+
+  .mega-dropdown-menu {
+    padding: 5px 0;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #ffffff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    right: 285px;
+    z-index: 10;
+  }
+
+  .mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 17px solid #cccccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -17px;
+    right: 283px;
+    z-index: 8;
+  }
+
+  .mega-dropdown-menu-2 {
+    width: 65%;
+  }
+
+  .mega-dropdown-menu-2:before {
+    left: 50px;
+  }
+
+  .mega-dropdown-menu-2:after {
+    left: 50px;
+  }
+
+  .mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mega-dropdown-menu > li > ul > li {
+    list-style: none;
+    border-right: none !important;
+    font-weight: 400 !important;
+    text-transform: inherit !important;
+  }
+
+  .mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    clear: both;
+    font-weight: 400 !important;
+    line-height: 1em;
+    color: #2e4053;
+    white-space: normal;
+    border-radius: 2px;
+    padding: 7px 5px;
+    text-transform: inherit !important;
+  }
+
+  .mega-dropdown-menu .dropdown-header {
+    color: #2e4053;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 0 0 10px 0 !important;
+  }
+
+  .mega-dropdown-menu form {
+    margin: 3px 20px;
+  }
+
+  .mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+  }
+
+  #myCarousel {
+    margin-bottom: 5px;
+  }
+  /*
+  Ends of Mega Dropdown
+   */
+}
+
+@media (min-width: 641px) and (max-width: 767px) {
+  /**
+Fix image sizes for mobile version
+ */
+  .show-page-article {
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+
+  .main-navbar-section {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 15px;
+    }
+  }
+
+  .nav > li > a {
+    padding: 10px 6px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /**
+Fix image sizes for mobile version
+ */
+  .show-page-article {
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+
+  .main-navbar-section {
+    .navbar-nav > li > a {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      line-height: 15px;
+    }
+  }
+
+  .nav > li > a {
+    padding: 8px 6px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .show-casino-detail {
+    .editors-review-for-mobile {
+      display: none;
+    }
+  }
+
+  // All Games
+  .all-games-section {
+    .index-heading-message {
+      margin-bottom: 20px;
+      text-align: center !important;
+
+      img {
+        text-align: center !important;
+        margin: 0 auto;
+      }
+    }
+  }
+
+  // Old Page
+  .show-page-article {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+
+    h1 {
+      font-size: 36px;
+      font-weight: 600;
+    }
+
+    .page-headline {
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+  }
+
+  // Show Single Region
+  .show-region {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .region-h1 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    p, em, b, span {
+      font-family: helvetica,arial,sans-serif !important;
+      font-size: 14px;
+    }
+
+    .primary-button {
+      color: #ffffff;
+      word-wrap: break-word;
+      word-break: break-all;
+      padding: 4px;
+      background: #ec028d;
+      line-height: 30px;
+      border-radius: 2px;
+
+      &:hover, &:focus {
+        background-color: #fa25a4;
+      }
+    }
+  }
+
+  // Index page features stack (Very Top Section)
+  .index-page-features-stack {
+    background-color: #f4f6f7;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      color: rgba(46, 64, 83, .95);
+
+      &:hover, &:focus {
+        color: rgba(46, 64, 83, 1);
+      }
+    }
+
+    .features-stack-parent-column {
+      background: url("../img/features-stack-thin-border.png") no-repeat right;
+      padding-right: 0;
+      padding-left: 30px;
+
+      &:last-child {
+        background: none;
+      }
+
+      .features-stack-col-01 {
+        padding-left: 0;
+        padding-right: 0;
+      }
+
+      .features-stack-col-02 {
+        .feature-stack-headline {
+          color: #00aeef;
+          font-size: 20px;
+          font-weight: 700;
+
+          a {
+            color: #00aeef;
+
+            &:hover, &:focus {
+              color: rgba(46, 64, 83, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*
+  Mega Dropdown
+   */
+  .navbar-nav > li > .dropdown-menu {
+    margin-top: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+
+  .navbar-default .navbar-nav > li > a {
+    //width: 200px;
+    font-weight: bold;
+  }
+
+  .mega-dropdown {
+    position: static !important;
+    //width: 100%;
+  }
+
+  .mega-dropdown-menu {
+    padding: 20px 0;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+
+  .mega-dropdown-menu:before {
+    content: "";
+    border-bottom: 15px solid #ffffff;
+    border-right: 17px solid transparent;
+    border-left: 17px solid transparent;
+    position: absolute;
+    top: -15px;
+    right: 285px;
+    z-index: 10;
+  }
+
+  .mega-dropdown-menu:after {
+    content: "";
+    border-bottom: 17px solid #cccccc;
+    border-right: 19px solid transparent;
+    border-left: 19px solid transparent;
+    position: absolute;
+    top: -17px;
+    right: 283px;
+    z-index: 8;
+  }
+
+  .mega-dropdown-menu-2 {
+    width: 50%;
+  }
+
+  .mega-dropdown-menu-2:before {
+    left: 80px;
+  }
+
+  .mega-dropdown-menu-2:after {
+    left: 80px;
+  }
+
+  .mega-dropdown-menu > li > ul {
+    padding: 0;
+    margin: 0;
+  }
+
+  .mega-dropdown-menu > li > ul > li {
+    list-style: none;
+    border-right: none !important;
+    font-weight: 400 !important;
+  }
+
+  .mega-dropdown-menu > li > ul > li > a {
+    display: block;
+    clear: both;
+    font-weight: 400 !important;
+    line-height: 1.4em !important;
+    color: #2e4053;
+    white-space: normal;
+    border-radius: 2px;
+    padding: 5px 5px 5px 0;
+    text-transform: inherit !important;
+
+    &:hover, &:focus {
+      padding: 5px;
+      margin-left: -5px;
+    }
+  }
+
+  .mega-dropdown-menu .dropdown-header {
+    color: #2e4053;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    padding: 0 0 5px 0 !important;
+    white-space: normal;
+
+    a {
+      color: #2e4053;
+      font-family: 'Oswald', sans-serif !important;
+      font-size: 16px !important;
+      font-weight: 400 !important;
+      padding: 0 0 5px 0 !important;
+      text-transform: inherit !important;
+      white-space: normal;
+
+      &:hover, &:focus {
+        background-color: transparent !important;
+        color: rgba(46, 64, 83, .8) !important;
+        margin-left: 0;
+      }
+    }
+  }
+
+  .mega-dropdown-menu form {
+    margin: 3px 20px;
+  }
+
+  .mega-dropdown-menu .form-group {
+    margin-bottom: 3px;
+  }
+
+  #myCarousel {
+    margin-bottom: 5px;
+  }
+  /*
+  Ends of Mega Dropdown
+   */
+}
+
+// iPhone 7
+@media (min-width: 750px) and (max-width: 1334px) {
+  .slider-text {
+    .slider-text-title {
+      font-size: 30px !important;
+      text-align: center !important;
+      text-transform: capitalize !important;
+    }
+  }
+}
+
+// New Casino Table
+a {
+  &.merge-right {
+    background-color: #ec5da2 !important;
+    box-shadow: 0 2px 1px #af006a !important;
+    background: none;
+    border: none;
+    max-width: inherit;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 0 6px 6px 0;
+    padding: 3px 15px;
+    color: #ffffff;
+  }
+}
+
+.casino-tbl-cta-btn {
+  background-color: #ec028d !important;
+  box-shadow: 0 2px 1px #af006a !important;
+  background: none;
+  border: none;
+  max-width: inherit;
+  margin-bottom: 20px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 6px 0 0 6px;
+  padding: 3px 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.merge-btn a:hover {
+  color: #ffffff;
+}
+
+.casino-tbl-brand-container {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  border: 1px solid rgba(46, 64, 83, .20);
+  border-radius: 12px;
+  margin-bottom: 3px;
+
+  &:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+  &:nth-child(odd) {
+    background-color: #f0f3f4;
+  }
+}
+
+.casino-tbl-logo-left-container {
+  width: 50%;
+  float: left;
+  //background: #ffffff;
+  text-align: center;
+  border-radius: 12px 0 0 12px;
+}
+
+.casino-tbl-logo-wrapper {
+  text-align: center;
+  padding: 15px 20px 0;
+  position: relative;
+}
+
+.casino-tbl-logo-box img {
+  width: 100%;
+  max-width: 185px;
+  margin-top: 5px;
+}
+
+.logo-right-container {
+  width: 50%;
+  float: right;
+  text-align: center;
+  //background-color: #f0f3f4;
+  border-radius: 0 12px 12px 0;
+}
+
+.logo-right-t2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 42px;
+  line-height: 25px;
+  color: limegreen;
+  font-weight: bold;
+  padding: 25px 0 0;
+
+  span {
+    font-size: 24px !important;
+  }
+}
+
+.label-tag {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #ffffff;
+  padding: 5px 10px;
+  font-size: 11px;
+  line-height: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tag01 {
+  background-color: #d61100;
+}
+
+.tag02 {
+  background-color: #81d742;
+}
+
+.tag03 {
+  background-color: #dd3333;
+}
+
+.tag04 {
+  background-color: #91cb0f;
+}
+
+@media (max-width: 580px) {
+  .label-tag {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 500px) {
+  .casino-tbl-cta-btn {
+    width: 68%;
+    padding: 3px;
+  }
+  a.merge-right {
+    padding: 3px 12px;
+  }
+}
+
+.casino-tbl-use-code-new {
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  background-color: #ffdb58;
+  border-radius: 2px;
+  padding: 0 4px;
+  border: 1px dashed #000000;
+  margin-top: 1px;
+  position: relative;
+  display: inline;
+}
+
+.bonus-codes {
+  margin-bottom: 15px;
+  color: #2e4053;
+}
+
+.top-signup-offer-text {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.brand-info {
+  color: #2e4053;
+  line-height: 20px;
+  margin: 5px 0;
+}
+
+.review {
+  font-size: 12px;
+}
+
+.casino-tbl-rating-badge {
+  display: inline-block;
+  left: 4px;
+  top: 20px;
+  width: 22px;
+  height: 32px;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 600;
+  color: #ffffff;
+  background: url(../img/rating-badge.png) no-repeat;
+  background-size: 24px 32px;
+}
