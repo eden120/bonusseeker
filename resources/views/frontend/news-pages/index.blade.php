@@ -151,17 +151,8 @@
         </div>
 
         <div class="col-xs-12 col-md-3 news-categories">
-            <div class="span-larger-text">News Categories</div>
-
-            <div class="list-group">
-                @unless(empty($categories))
-                    @foreach($categories as $category)
-                        <a href="{{ route('front-end.news', ['region' => $region_slug[0]['slug']]) }}" class="list-group-item">{{ $category }}</a>
-                    @endforeach
-                @endunless
-            </div>
-
             <div class="span-larger-text">More Information</div>
+            
             <div class="list-group">
                 <a href="{{ route('front-end.show-parent-post', ['region' => $region_slug[0]['slug']]) }}" class="list-group-item">NJ Online Casino Reviews</a>
                 <a href="{{ route('front-end.bonus-codes', ['region' => $region_slug[0]['slug']]) }}" class="list-group-item">NJ Online Casino No Deposit Bonus Codes</a>
