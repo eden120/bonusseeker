@@ -1,6 +1,7 @@
 User-agent: *
 Disallow: vendor/*
 Disallow: app/*
+Disallow: /new-jersey-online-casinos/visit/
 
 User-agent: SemrushBot
 Allow: /
