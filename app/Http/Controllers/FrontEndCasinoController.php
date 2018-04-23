@@ -103,7 +103,7 @@ class FrontEndCasinoController extends Controller
             $casinoSpecialOffers = DB::table('casinos')->orderBy('sort_by', 'asc')->where(['region_id' => 1])->where(['is_active' => 1])->where('sort_by', '>', 1)->take(4)->get();
 
             // SEO Meta Section
-            if (!empty($promoCode)) {
+            if (!$promoCode->isEmpty()) {
                 foreach ($promoCode as $show_promo_code) :
                     SEOMeta::setTitle($show_promo_code->seo_title);
                     SEOMeta::setDescription($show_promo_code->seo_description);
